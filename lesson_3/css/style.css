@@ -1,0 +1,43 @@
+@import url(reset.css);
+h1{
+	color: rgb(4, 184, 250);
+}
+
+
+.intro {
+	color: brown;
+}
+div.intro2{
+	color: violet;
+}
+a{
+	color: tomato;
+}
+#history{
+	color: rgb(0, 255, 55);
+}
+.text.text-gt{
+	color: blue;
+}
+.intro2,
+.intro3{
+	color: aqua;
+}
+.lamborghini p{
+	color: thistle;
+}
+.crisis .order{
+	color: red;
+}
+.chrysler2 *{
+	color: goldenrod;
+}
+.chrysler>h3{
+	color: grey;
+}
+.chrysler ~ p{
+	color: rebeccapurple;
+}
+.chrysler+p{
+	color: aquamarine;
+}
