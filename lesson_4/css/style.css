@@ -1,0 +1,99 @@
+@import url(reset.css);
+@font-face {
+	font-family: 'Bitter Pro';
+	src: url('../fonts/BitterPro-Regular.woff2') format('woff2'),
+		 url('../fonts/BitterPro-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Bitter Pro';
+	src: url('BitterPro-SemiBold.woff2') format('woff2'),
+		 url('BitterPro-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Bitter Pro';
+	src: url('../fonts/BitterPro-MediumItalic.woff2') format('woff2'),
+		 url('../fonts/BitterPro-MediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+
+body{
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.7;
+
+}
+.intro{
+	font-family:"Bitter Pro", serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 500;
+	text-align: left;
+
+}
+h1{
+	font-size: 20px;
+	color: rgba(64, 136, 224, 0.505);
+	text-align: center;
+	text-shadow: 2px 2px 5px rgba(230, 13, 13, 0.505);
+	text-decoration: underline;
+	line-height: 2;
+}
+.starship{
+	font-family:"Bitter Pro", serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: line-through;
+	text-transform: uppercase;
+}
+.spacex{
+	text-align: justify;
+	font-size: 18px;
+	font-family:"Bitter Pro", serif;
+	font-weight: 600;
+	font-style: normal;
+	text-transform: capitalize;
+	text-shadow: 2px 2px 5px rgba(13, 187, 230, 0.505);
+}
+.nightstarship{
+	text-indent: 30px;
+}
+.text{
+	text-align: left;
+}
+.quote{
+	font-family:"Bitter Pro", serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+}
+.ceo{
+	text-align: right;
+	text-transform: uppercase;
+	text-decoration: overline;
+	letter-spacing: 10px;
+}
+.superheavy{
+	white-space: normal;
+	word-spacing: 7px;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+a{
+	text-shadow: 3px 3px 3px rgba(68, 255, 0, 0.523);
+	text-decoration: underline;
+	
+}
