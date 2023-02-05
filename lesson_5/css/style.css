@@ -1,0 +1,97 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	max-width: 1240px;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 25px;
+	margin: 0 auto;
+}
+.content__lake,
+.content__desert,
+.conteiner__title{
+	max-width: 816px;
+	margin: 0 auto;
+}
+.title {
+font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+color: #212529;
+max-width: 400px;
+margin-bottom: 40px;
+}
+.content {
+font-weight: 300;
+line-height: 25px;
+color: #6C757D;
+margin-bottom: 40px;
+}
+.content1{
+	margin-bottom: 10px;
+}
+.img {
+	max-width: 100%;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+.quote{
+font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+color: #212529;
+max-width: 605px;
+margin-bottom: 40px;
+}
+.content__desert{
+	margin-bottom: 40px;
+}
+.foto{
+	margin: 0 auto;
+	margin-bottom: 80px;
+	font-size: 0px;
+}
+.canoe{
+	max-width: 100%;
+	margin-right: 30px;
+	border-radius: 5px;
+}
+.lake{
+	max-width: 100%;
+	border-radius: 5px;
+	
+}
+
+
+.pad{
+	margin-top: 30px;
+	padding: 10px 15px 20px 25px;
+	background-color: green;
+	margin-bottom: 35px;
+
+}
+.mar{
+	background-color: #6C757D;
+	color: white;
+	padding: 10px;
+	max-width: 500px;
+	max-height: 600px;
+	overflow: auto;
+	display: inline-block;
+	
+
+}
+.mar p{
+	padding: 15px;
+	color: aqua;
+}
+
+a{
+	color: rgb(6, 14, 247);
+	margin-bottom: 10px;
+	margin-right: 10px;
+	display: inline-block;
+}
