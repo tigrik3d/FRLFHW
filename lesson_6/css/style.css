@@ -1,0 +1,191 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+body {
+
+	font-family: "Poppins", sans-serif;
+	color: #6c757d;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+[class*="__container"] {
+	max-width: 1270px;
+	/* 1240 + 15 + 15 */
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.container {
+	padding-top: 80px;
+}
+
+.small__container {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+
+.small__container p {
+	line-height: 1.78;
+	/* 25/14 */
+	margin-bottom: 30px;
+
+}
+
+.small__title {
+	color: #212529;
+	font-size: 25px;
+	line-height: 1.6;
+	/* 40/25 */
+	margin-bottom: 40px;
+	font-weight: 700;
+	max-width: 605px;
+}
+
+.text {
+	max-width: 816px;
+	margin: 0 auto 80px;
+	line-height: 1.78;
+	/* 25/14 */
+	margin-bottom: 30px;
+}
+
+
+.images {
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+
+.img {
+	font-size: 0;
+	margin-bottom: 80px;
+
+}
+
+.img__canoe {
+	margin-right: 30px;
+}
+
+/* Part 2 */
+.article {
+	max-width: 1470px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.article__storage {
+	max-width: 816px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 100px;
+
+}
+
+.images__one {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.article__text-block {
+
+	line-height: 1.78;
+	margin: 0 auto;
+}
+
+.article__text-block p {
+	margin-bottom: 40px;
+}
+
+.article__title {
+	font-size: 25px;
+	line-height: 1.6;
+	color: #212529;
+	max-width: 605px;
+	
+	font-weight: 700;
+}
+
+.images__two {
+	font-size: 0;
+	max-width: 1270px;
+	margin: 0 auto 100px;
+}
+
+.hanger {
+	margin-right: 30px;
+	border-radius: 5px;
+}
+.girl{
+	border-radius: 5px;
+}
+
+
+
+/* Part 3 */
+
+.part__three{
+	border-top: 5px dotted yellow;
+	border-bottom: 5px solid blue;
+	border-left: 10px  dashed green;
+	border-right: 2px dashed red;
+	line-height: 1.78;
+	font-size: 16px;
+	max-width: 900px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.outline{
+	outline: 10px double rgb(68, 0, 255);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	margin:0 auto 30px;
+	max-width: 900px;
+background-color:yellow ;
+border-radius: 30px;
+}
+
+.spa {
+	border: 5px solid yellow;
+	border-radius: 30px;
+	overflow: hidden;
+	display: inline-block;
+	margin-bottom: 30px;
+
+}
+.boat__test{
+	margin-bottom: 30px;
+}
+.boat {
+	border: 5px solid yellow;
+	border-radius: 30px;
+	margin-right: 30px;
+
+}
+
+.boat__b {
+	box-shadow: 9px -5px 20px 5px #04faf2;
+	border-radius: 50%;
+	opacity: 0.7;
+	border-bottom: 5px solid yellow;
+	border-right: 5px solid yellow;
+	border-left: 10px dotted gray;
+}
+
+.visibi__op {
+
+	opacity: 0.9;
+	padding-left: 15px;
+}
+.visibi__no{
+	display: none
+	
+}
+.visibi{
+	visibility: hidden;
+	padding-bottom: 30px;
+	padding-left: 15px;
+}
