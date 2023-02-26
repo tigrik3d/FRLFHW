@@ -1,0 +1,54 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+	font-family: "poрpins", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1.3;
+	background-color: gray;
+}
+.svg{
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 30px;
+padding-top: 50px;
+max-width: 1470px;
+margin: 0 auto;
+}
+ .svg__icon img:not(:last-child) {
+	margin-right: 30px;
+}
+
+.svg__icon,.svg__content{
+	margin-bottom: 30px;
+}
+.svg__content img:not(:last-child){
+	margin-right: 30px;
+}
+.title{
+	text-align: center;
+	text-shadow: 2px 2px 2px wheat;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.svg__designsvg{
+	background-color: rgba(5, 5, 5, 0.644);
+	padding: 15px;
+	margin-bottom: 30px;
+}
+.svg__designsvg img{
+	margin-right: 30px;
+}
+.svg__designsvg img:last-child{
+	margin-right: 0px;
+}
+
+.big__img1{
+	max-width: 100%;
+}
+.content__images img{
+	margin: 10px;
+}
+
