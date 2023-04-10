@@ -1,0 +1,188 @@
+@import url("reset.css");
+@import url("common.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap");
+body {
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.6;
+	color: #495057
+	
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+.filter__container {}
+
+.filter__menu {
+	display: flex;
+		justify-content: space-between;
+		line-height: 2.8;
+		margin-bottom: 44px;
+		margin-top: 15px;
+}
+
+
+
+.menu__select {
+	position: relative;
+}
+
+
+
+.menu__filter {
+	display: flex;
+		gap: 20px;
+}
+
+
+
+.filter__link {
+	position: relative;
+}
+
+
+.menu__select::after,
+.filter__link::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	height: 1.5px;
+	background-color: rgba(68, 74, 80, 0.5);
+	transition: all 0.3s ease;
+}
+
+.menu__select:hover::after,
+.filter__link:hover::after {
+	width: 100%;
+}
+
+
+.main__container {}
+
+.gallery {
+	display: flex;
+	margin: 0 -15px;
+	flex-wrap: wrap;
+	row-gap: 45px;
+	margin-bottom: 60px;
+	
+
+
+}
+
+.gallery__block {
+	flex: 0 1 33.3%;
+	
+}
+
+.gallery__item {
+	column-gap: 45px;
+	padding: 0 15px 15px 15px;
+	margin-bottom: 15px;
+	
+}
+
+.gallery__top {
+	position: relative;
+	margin-bottom: 30px;
+	border-radius: 3px;
+	max-width: 100%;
+
+}
+
+.gallery__img img{
+	max-width: 100%;
+	transition: all 0.3s ease 0s;
+}
+.gallery__img img:hover {
+transform: scale(1.1);
+
+}
+.gallery__card{
+	position: relative;
+	margin-bottom: 30px;
+	overflow: hidden;
+	border-radius: 3px;
+}
+
+.gallery__sub {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	font-size: 8px;
+	color: #fff;
+	line-height: 2.5;
+	background: rgba(33, 37, 41, 0.3);
+	border-radius: 3px;
+	padding: 3px 12px 2px 13px;
+	font-weight: 700;
+	overflow: hidden;
+	text-transform: uppercase;
+	transition: all 0.3s ease 0s;
+}
+.gallery__sub:hover{
+	transform: scale(1.2);
+
+}
+
+.gallery__date {
+font-size: 12px;
+line-height: 1.6px;
+text-align: left;
+color: #495057;
+margin-bottom: 15px;
+
+}
+
+.gallery__title {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;	
+	color: #212529;
+	padding-bottom: 15px;
+	display: inline;
+}
+.gallery__title:hover{
+	text-decoration: underline;
+}
+
+.gallery__description {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e5e5e5;
+	line-height: 1.6;
+	color: #495057;
+
+}
+
+.gallery__author {
+	margin-top: 15px;
+	font-size: 12px;
+	line-height: 1.6;
+	color: #495057;
+	display: inline-block;
+	
+
+}
+.gallery__author:hover{
+	color: black;
+	text-decoration: underline;
+	
+}
