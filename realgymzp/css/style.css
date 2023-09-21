@@ -342,7 +342,8 @@ line-height: normal;
 }
 .specs__list{
 	display: grid;
-	gap: 20px;
+	column-gap: 40px;
+	row-gap: 20px;
 	align-items: center;
 	justify-items: self-start;
 	justify-content: center;
@@ -366,6 +367,7 @@ line-height: normal;
 @media(max-width:767.98px) {
 	.specs__list{
 		grid-template:1fr/1fr;
+		
 	}
 }
 
@@ -385,7 +387,8 @@ line-height: normal;
 	display: grid;
 	justify-content: stretch;
 	gap: 50px;
-	grid-template-columns: repeat(auto-fill, minmax(330px,1fr));
+	justify-items: center;
+	grid-template-columns: repeat(auto-fit, minmax(330px,1fr));
 }
 .sections__title{
 	font-size: 48px;
