@@ -36,7 +36,7 @@
 body{
 	font-family: "Roboto Condensed",sans-serif;
 	font-size: 15px;
-	font-style: regular;
+	font-style: normal;
 	font-weight: 300;
 	line-height: 1.1;
 	
@@ -278,7 +278,6 @@ transition:background-color 0.5s;
 }
 .main__link:hover{
 	background-color:aqua;
-
 }
 .title {
 }
@@ -311,7 +310,7 @@ transition:background-color 0.5s;
 	}
 }
 /* reasons */
-.reasons{
+.reasons:not(:last-child){
 	margin-bottom: 250px
 }
 .reasons__title{
@@ -334,7 +333,6 @@ line-height: normal;
 	line-height: 1.1;
 }
 .specs__item{
-	
 
 }
 .reasons__body{
@@ -373,71 +371,115 @@ line-height: normal;
 
 /* page__membership sections */
 
-
-
-
-.page__membership {
-}
-.sections {
-}
 .section__container {
 }
+.sections__title {
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.6;
+/* text-align: center; */
+display: flex;
+align-items: center;
+/* gap: 30px; */
+justify-content: center;
 
-.sections__block {
-	display: grid;
-	justify-content: stretch;
-	gap: 50px;
-	justify-items: center;
-	grid-template-columns: repeat(auto-fit, minmax(330px,1fr));
 }
-.sections__title{
-	font-size: 48px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 1.1;
-	text-align: center;
-	padding-bottom: 120px;
-	}
+
+/* ----------------------- */
+
+
+
+/* .main__link_mod{
+	align-self: center;
+	border-radius: 30px;
+	background: #FAFF00;
+	padding: 10px 10px;
+
+} */
+
+
+.section__container {
+}
+.section__block {
+}
+.sections__title:not(:last-child) {
+	padding-bottom: 100px;
+}
+.section__card {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+	/* column-gap: 30px; */
+	gap: 30px;
+	padding: 0 15px;
+
+}
 .card {
 }
-.card__sections {
+.card__column{
+	flex: 0 0 31.333%;
+	border-radius: 31px;
+	background: #222;
+	border: 1px solid #000;
+	transition: all 0.5s;
+	
+	
+}
+.card__column:hover{
+	border:1px solid rgba(250, 255, 0, 1);
+}
+.card__column:hover .card__title{
+	background: rgba(250, 255, 0, 1);
+	color: #000;
+	
+	
+}
+.card__body {
 	display: flex;
 	flex-direction: column;
+	min-height: 100%;
 	gap: 15px;
+	padding-bottom: 15px;
 	flex-wrap: wrap;
-	border-radius: 10px;
-	max-width: 330px;
-	background-color: rgba(34, 34, 34, 1);
-	padding: 22px 22px 22px 22px;
-
-
 }
+
+
 .card__title {
-font-size: 26px;
+padding-top: 15px;
+font-size: 24px;
 font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: 1.6;
 text-align: center;
+padding-bottom: 15px;
+transition: all 0.5s;
+border-radius: 29px 29px 0 0;
 }
-.card_fonts{
-	font-size: 18px;
+.card__items {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 15px;
+	padding: 0 15px;
+	flex-wrap: wrap;
+}
+.card__items:not(:last-child){
+	padding-bottom: 15px;
+}
+
+.card__item {
+font-size: 18px;
 font-style: normal;
 font-weight: 300;
 line-height: 1.6;
 }
-.card__classes {
-}
-.card__time {
-}
-.card__coach {
-}
-.card__price {
-}
-.price {
-}
-.price__items {
-	
-}
-.price__item {
-	line-height: 1.6;
+
+.main__link-mod{
+	align-self: center;
+	padding: 10px 10px;
+	border-radius: 30px;
+	font-size: 18px;
+	/* margin-bottom: 15px; */
 }
