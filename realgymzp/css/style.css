@@ -259,10 +259,10 @@ line-height: 1.1;
 }
 .main__link{
 color: #000;
-font-size: 16px;
+font-size: 20px;
 font-style: normal;
 font-weight: 500;
-line-height: 1.1;
+line-height: 1.4;
 padding: 16px 50px;
 border-radius: 30px;
 background-color:#FAFF00;
@@ -474,6 +474,10 @@ line-height: 1.6;
 	}
 	.card__items{
 		align-items: center;
+	}
+	.section__card{
+		/* justify-items: center; */
+		justify-content: center;
 	}
 }
 @media(max-width:504.98px) {
