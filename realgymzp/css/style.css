@@ -3,12 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bruno+Ace+SC:regular&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
-
-
-
-
-
-
 .wrapper {
 	overflow: clip;
 	min-height: 100%;
@@ -25,10 +19,9 @@
 [class*="__container"] {
 	padding-left: 15px;
 	padding-right: 15px;
-	max-width: 1200px;
+	max-width: 1260px;
 	padding-top: 10px;
 	padding-bottom: 20px;
-	/* 1160+15+15 */
 	color: white;
 	margin: 0 auto;
 }
@@ -311,7 +304,7 @@ transition:background-color 0.5s;
 }
 /* reasons */
 .reasons:not(:last-child){
-	margin-bottom: 250px
+	margin-bottom: 150px
 }
 .reasons__title{
 font-size: 48px;
@@ -346,7 +339,6 @@ line-height: normal;
 	justify-items: self-start;
 	justify-content: center;
 	grid-template: 1fr 1fr/1fr 1fr;
-	/* grid-template-columns: repeat(auto-fill, minmax(370px,1fr)); */
 
 }
 .specs__item{
@@ -378,25 +370,14 @@ font-size: 48px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.6;
-/* text-align: center; */
 display: flex;
 align-items: center;
-/* gap: 30px; */
 justify-content: center;
 
 }
 
 /* ----------------------- */
 
-
-
-/* .main__link_mod{
-	align-self: center;
-	border-radius: 30px;
-	background: #FAFF00;
-	padding: 10px 10px;
-
-} */
 
 
 .section__container {
@@ -409,20 +390,20 @@ justify-content: center;
 .section__card {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 -15px;
-	/* column-gap: 30px; */
-	gap: 30px;
-	padding: 0 15px;
+	gap: 15px;
+	justify-content: space-between;
+	
 
 }
 .card {
 }
 .card__column{
-	flex: 0 0 31.333%;
+	flex: 0 1 32.333%;
 	border-radius: 31px;
 	background: #222;
 	border: 1px solid #000;
 	transition: all 0.5s;
+	
 	
 	
 }
@@ -439,8 +420,6 @@ justify-content: center;
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
-	gap: 15px;
-	padding-bottom: 15px;
 	flex-wrap: wrap;
 }
 
@@ -461,7 +440,7 @@ border-radius: 29px 29px 0 0;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 15px;
+	gap: 10px;
 	padding: 0 15px;
 	flex-wrap: wrap;
 }
@@ -481,5 +460,6 @@ line-height: 1.6;
 	padding: 10px 10px;
 	border-radius: 30px;
 	font-size: 18px;
-	/* margin-bottom: 15px; */
+	margin-bottom: 15px;
+
 }
