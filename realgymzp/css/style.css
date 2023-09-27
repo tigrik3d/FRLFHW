@@ -391,7 +391,7 @@ justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 15px;
-	justify-content: space-evenly;
+	justify-content: flex-start;
 	
 
 }
