@@ -470,7 +470,7 @@ line-height: 1.6;
 }
 @media(max-width:779.98px) {
 	.card__column{
-		flex-basis: 80%;
+		flex-basis: 90%;
 	}
 	.card__items{
 		align-items: center;
@@ -487,3 +487,4 @@ line-height: 1.6;
 		font-size: 20px;
 	}
 }
+
