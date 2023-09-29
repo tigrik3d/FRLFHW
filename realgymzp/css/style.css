@@ -498,12 +498,14 @@ line-height: 1.6;
 }
 .about__info{
 	display: flex;
-	gap: 10px;
-	flex-direction: row;
+	align-items: center;
+	
 	
 }
 .about__text{
 	flex: 0 0 50%;
+	padding: 10px;
+
 }
 .about__title{
 font-size: 48px;
@@ -524,7 +526,8 @@ line-height: 1.6;
 
 
 .about__slider{
-	/* flex: 0 0 50%; */
+	flex: 0 0 50%;
+	padding: 10px;
 }
 
 
