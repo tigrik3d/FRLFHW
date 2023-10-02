@@ -524,12 +524,6 @@ line-height: 1.6;
 	margin-bottom: 30px;
 }
 
-
-.about__slider{
-	
-}
-
-
 .swiper{
 	display: flex;
 	max-width: 570px;
@@ -571,9 +565,16 @@ line-height: 1.6;
 	width: 40px;
 	height: 2px;
 	
-	border: 1px solid rgb(255, 255, 255);
+	border: 1px solid rgba(250, 255, 0, 1);
 }
 .swiper-pagination-bullet-active {
-	background-color: rgba(250, 255, 0, 1);
 	opacity: 1;
+}
+@media(max-width:779.98px) {
+	.about__info{
+		flex-direction: column;
+	}
+	.about__text{
+		flex: 0 0 100%;
+	}
 }
