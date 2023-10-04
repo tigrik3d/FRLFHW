@@ -1,22 +1,22 @@
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper('.swiper', {
 	// Optional parameters
-	direction: "horizontal",
+	direction: 'horizontal',
 	loop: true,
-	speed: 1000,
-	effect: "fade",
  
 	// If we need pagination
 	pagination: {
-	  el: ".swiper-pagination",
-	  clickable: true,
+		el: '.swiper-pagination',
+		clickable:true,
 	},
  
 	// Navigation arrows
-	//   navigation: {
-	//     nextEl: ".swiper-button-next",
-	//     prevEl: ".swiper-button-prev",
-	//   },
+	// navigation: {
+	//   nextEl: '.swiper-button-next',
+	//   prevEl: '.swiper-button-prev',
+	// },
+
 	autoplay: {
-	  delay: 3000,
-	},
+		delay:2000,
+	}
+ 
  });
