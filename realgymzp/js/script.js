@@ -5,4 +5,5 @@ document.addEventListener("click", function (e) {
 	  document.documentElement.classList.toggle("menu-open");
 	  e.preventDefault();
 	}
- });
+});
+ 
