@@ -211,7 +211,7 @@ body {
 			@media (max-width:1525px) {
 				margin-bottom: 25px;
 			}
-			@media (max-width:1275.99px) {
+			@media (max-width:1278.99px) {
 				margin-bottom: 50px;
 			}
 			@media (max-width:840px) {
@@ -227,6 +227,10 @@ body {
 			}
 
 			@media (max-width:412.99px) {
+				margin-bottom: 8px;
+				font-size: 14px;
+			}
+			@media (max-width:388.99px) {
 				margin-bottom: 8px;
 				font-size: 10px;
 			}
@@ -254,6 +258,12 @@ body {
 				font-size: 16px;
 				max-width: 130px;
 				}
+			
+				@media (max-width:1279.99px) {
+					padding: 20px 45px;
+					font-size: 18px;
+					max-width: 175px;
+				}
 			@media (max-width:1184.99px) {
 				padding: 20px 45px;
 				font-size: 18px;
@@ -270,6 +280,11 @@ body {
 				font-size: 12px;
 				max-width: 86px;
 			}
+			@media (max-width:388.99px) {
+				padding: 11px 18px;
+				font-size: 10px;
+			}
+
 
 		}
 		
@@ -305,7 +320,7 @@ body {
 		.mod {
 		
 		&__right-pad {
-			padding: 11% 5% 5% 50%;
+			padding: 8.5% 5% 5% 50%;
 
 			@media (max-width:1570px) {
 				padding-top: 8%;
@@ -333,6 +348,24 @@ body {
 			@media (max-width:1330px) {
 				padding-top: 7%;
 				}
+				@media (max-width:1570px) {
+					padding-top: 8%;
+					}
+				@media (max-width:1530px) {
+				padding-top: 7%;
+				}
+				@media (max-width:1450px) {
+					padding-top: 10%;
+				}
+				@media (max-width:1280px) {
+					padding-top: 17%;
+				}
+				@media (max-width:725.99px) {
+					padding-top: 12%;
+				}
+				@media (max-width:488.99px) {
+					padding-top: 11%;
+				}	
 		}
 	}
 		
